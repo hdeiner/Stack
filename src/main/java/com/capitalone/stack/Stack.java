@@ -1,8 +1,10 @@
 package com.capitalone.stack;
 
+@SuppressWarnings("WeakerAccess")
 public class Stack {
-    String[] stack;
-    int stackIndex;
+
+    private final String[] stack;
+    private int stackIndex;
 
     public Stack(int stackSize) {
         stack = new String[stackSize];
@@ -13,7 +15,7 @@ public class Stack {
         return (stackIndex == 0);
     }
 
-    public void push(String newElement) throws Exception {
+    public void push(String newElement)  {
         stack[stackIndex++] = newElement;
     }
 
