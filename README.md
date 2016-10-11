@@ -17,7 +17,7 @@ Code Examples
 Initialize a stack called myStack capable of holding 3 Strings.
 
 ```java
-Stack myStack = new Stack(10);
+Stack myStack = new Stack(3);
 ```
 
 Pop the empty stack.  This will cause an "stack underflow" exception.
