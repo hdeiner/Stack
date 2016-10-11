@@ -58,7 +58,7 @@ Check the top entity on the stack for "Dog".
 boolean stackCheck = myStack.peek().equals("Dog");  //returns true 
 ```
 
-Overflow this 3 String stack.  This will cause an "stack overflow" exception.
+Overflow this 3 String stack with "Dog" on it.  This will cause an "stack overflow" exception.
 
 ```java
 myStack.push("Cat");
