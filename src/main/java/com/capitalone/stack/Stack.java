@@ -1,6 +1,5 @@
 package com.capitalone.stack;
 
-@SuppressWarnings("WeakerAccess")
 public class Stack {
 
     private final String[] stack;

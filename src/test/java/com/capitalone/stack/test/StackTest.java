@@ -1,5 +1,6 @@
-package com.capitalone.stack;
+package com.capitalone.stack.test;
 
+import com.capitalone.stack.Stack;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
