@@ -1,13 +1,5 @@
 # IntelliJ project files
 .idea
 *.iml
-out
-gen
-
 # Java #
-*.class
-
 # Package Files #
-*.jar
-*.war
-*.ear
