@@ -70,4 +70,8 @@ public class StackTest {
         theStack.pop();
     }
 
+    //TODO push() should throw Stack Overflow when appropriate
+    //TODO peek() should throw Stack Underflow when appropriate
+    //TODO peek() should return top element on stack without popping it
+
 }
