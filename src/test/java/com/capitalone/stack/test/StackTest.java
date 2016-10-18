@@ -53,11 +53,11 @@ public class StackTest {
     }
 
     @Test
-    public void pushDogCatMouseShouldPopPopCat() throws Exception {
+    public void pushDogCatMousePopShouldBeMousePopShouldBeCat() throws Exception {
         theStack.push("Dog");
         theStack.push("Cat");
         theStack.push("Mouse");
-        theStack.pop();
+        assertThat(theStack.pop(), is("Mouse"));
         assertThat(theStack.pop(), is("Cat"));
     }
 
